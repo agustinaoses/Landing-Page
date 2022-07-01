@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, white, rgb(248, 237, 237));
+    position: sticky;
+}
+
+.checkbutton{
+    font-size: 30px;
+    color: brown;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{ 
+    text-align: center;
+    margin: 30px; 
+    font-weight:bold;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer
+    }
+
+li a:hover{
+    font-size: 13px;
+    background-color: rgb(222, 175, 175);
+    border-radius: 10px;
+    color: brown;
+    padding: 10px;
+}
+
+.eslogan{
+    background-image: url(https://phantom-elmundo.unidadeditorial.es/acc2877ef5e5265e3b93bc27c8321f98/crop/0x0/2731x2048/resize/2560/f/webp/assets/multimedia/imagenes/2022/05/09/16521030719003.jpg);
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.603);
+    font-size: 40px;
+}
+
+.info{
+background-color: rgba(222, 175, 175, 0.432);
+margin: 30px;
+font-size: 10px;
+text-align: center
+}
+  
+p{
+    font-size: 30px;
+}
+      
