@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petronila | Decoración</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital@1&family=Splash&display=swap">
 </head>
-    <body>
+
+<body>
     <header>
-        <img src="img/logo petronila.png"/>
+        <img src="img/logo petronila.png" class="logo" />
         <nav>
-         <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
             <label for="check" class="checkbutton">
-              <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
             </label>
             <ul>
                 <li><a>INICIO</a></li>
@@ -23,22 +27,82 @@
             </ul>
         </nav>
     </header>
-        <main>
-            <section class="eslogan">
-                <article>
-                    <h1>
-                        Hecho a mano y diseñado para que tu hogar sea un lugar único
-                    </h1>
+    <main>
+        <section class="eslogan">
+            <article>
+                <h1 class="p-eslogan">
+                    Hecho a mano y diseñado para que tu hogar sea un lugar único
+                </h1>
+            </article>
+        </section>
+        <section class="nosotros">
+            <article>
+                <p class="descripcion">
+                    En Petronila diseñamos artículos de decoración y además brindamos asesoramiento personalizado.
+                    Nuestro objetivo es que en tu casa, encuentres tu hogar.
+                </p>
+            </article>
+            <div class="container-card">
+                <div class="card-1">
+                    <img src="img/8046-PhotoRoom.png" alt="cuotas" class="card">
+                    <article class="tarjetas">
+                        <h2>STOCK</h2>
+                        <p>Los productos de nuestra web se encuentran en stock permanente</p>
+                    </article>
+                </div>
+                <div class="card-1">
+                    <img src="img/OBFGFZ0.png" alt="envios" class="card">
+                    <article class="tarjetas">
+                        <h2>ENVÍOS</h2>
+                        <p>Realizamos envíos a todo el país en máximo de 5 días hábiles</p>
+                    </article>
+                </div>
+                <div class="card-1">
+                    <img src="img/OBFGFZ0-PhotoRoom.png" alt="asesores" class="card">
+                    <article class="tarjetas">
+                        <h2>ASESORES</h2>
+                        <p>Nuestro equipo está especializado en diseño de interiores</p>
                 </article>
-            </section>
-            <section class="info">
-                <article>
-                    <p class="hecho a mano">
-                        En Petronila diseñamos artículos de decoración y además brindamos asesoramiento personalizado. Nuestro objetivo es que en tu casa, encuentres tu hogar. <br><br>
-                        ¡Para más información no dudes en contactarnos!
-                    </p>
-                </article>
-            </section>
-        </main>
-    </body>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="container-contacto">
+                <h2 class="h2-contacto">CONTACTO</h2>
+                        <ul class="ul-contacto">
+                            <li class="info">
+                                <i class="fa-solid fa-envelope"></i>
+                                petronila@gmail.com
+                            </li>
+                            <li class="info">
+                                <i class="fa-solid fa-phone"></i> 
+                                +54 9 11 5699 4435
+                            </li>
+                            <li class="info">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Echeverría 5034
+                            </li>
+                        </ul>
+            </div>  
+            <div class="container-formulario">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name">
+                    <label for="consulta">Consulta</label>
+                    <input type="text" name="consulta" class="input-consulta">
+                    <a class="enviar" type="submit">ENVIAR</a>
+                </div>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9948500024375!2d-58.48262928544248!3d-34.57899686369601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6692d8d507f%3A0xfe4af57efdd376bb!2sEcheverr%C3%ADa%205034%2C%20C1431%20CABA!5e0!3m2!1ses-419!2sar!4v1658700799671!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="copyright">
+            <h3>© Copyright Petronila | Decoración</h3>
+        </section>
+    </footer>
+</body>
 </html>
